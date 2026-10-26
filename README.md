@@ -10,6 +10,17 @@ The project was developed as a Machine Learning final project at Universitas Air
 
 The original image collection contained **832 BISINDO images**, consisting of 312 publicly available images and 520 self-collected images. After preprocessing, augmentation, and MediaPipe landmark extraction, the modeling dataset was separated into one-hand and two-hand gesture groups.
 
+## Application Screenshots
+
+### Home Page
+![Home Page](images/home_page.png)
+
+### Real-Time Transcription
+![Real-Time Transcription](images/transcription_page.png)
+
+### BISINDO Information Page
+![BISINDO Information Page](images/bisindo_info_page.png)
+
 ## System Workflow
 
 **Image Input → Image Enhancement → YOLOv8 Person Check → MediaPipe Hand Landmark Extraction → 1-Hand / 2-Hand Routing → FCNN Classification → Web Output**
